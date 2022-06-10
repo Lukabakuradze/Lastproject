@@ -1,0 +1,87 @@
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    opacity: 90%;
+}
+.footer-right{
+    width: 26%;
+    position: relative;
+}
+.footer-left > h1{
+    background-image: url(../img/lakers_logo_500.webp);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    width: 200px;
+    height: 200px;
+}
+.footer-left{
+    width: 74%;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    color: #feb925;
+}
+h4{
+color: #feb925;
+margin-top: 20px;
+font-size:small;
+margin-left: -122px;
+}
+.chat-popup {
+    display: none;
+}
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    min-height: 274px;
+    color: #000000;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    background-image: url(../img/NBA-logo-download.png);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    align-items: center;
+    border-radius: 20px;
+}
+.form-container textarea:focus{
+    outline: none !important;
+    border:1px solid #feb925;
+    box-shadow: 0 0 10px #f1f1f1;
+    /* stackoverflow */
+}
+.form-container .btn {
+    background-color: #feb925;
+    color: #000000;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px 15px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+.footer-chat-icon-container{
+    width: 60px;
+    height: 60px;
+    background-color: #feb925;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    background-image: url(../img/chaticon.png);
+    background-size: 100% 100%;
+    border-radius:12px;
+}
+.footer-chat-icon-container:hover{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .footer-left{
+        font-size: 11px;
+    }
+}

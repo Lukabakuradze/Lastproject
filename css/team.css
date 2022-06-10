@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    color: #feb925;
+}
+.satauri{
+    margin: 50px auto;
+    background-color: #feb925;
+    
+}
+.satauri h2{
+    text-align: center;
+    border: 5px solid #242424;
+    border-radius: 20px;
+    box-shadow: 2px 13px 30px 4px #000000;
+    color: #000000;
+}
+.first3{
+    width: 90%;
+    background-color: #242424;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    border: 3px solid #ffca02;
+}
+.div1 p{
+    color: #ffffff;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 16px;
+    margin: 10px;
+}
+.div1 p:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+.div2 p{
+    color: #ffffff;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 16px;
+    margin: 10px;
+}
+.div2 p:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+.div3 p{
+    color: #ffffff;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px 16px;
+    margin: 10px;
+}
+.div3 p:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .first3{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .first3 div {
+        padding: 20px;
+    }
+}
