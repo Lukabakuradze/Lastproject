@@ -57,6 +57,9 @@ header h1 {
     text-indent: -99999px;
     padding: 34px 76px; 
 }
+#navigacia a{
+    color: #feb925;
+}
 @media only screen and (max-width: 1000px) {
    header{
        display: flex;
